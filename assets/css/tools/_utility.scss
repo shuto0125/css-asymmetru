@@ -1,0 +1,6 @@
+@for $i from 0 through 16 {
+  .m-mt-#{$i} { margin-top: #{$i}rem}
+  .m-mb-#{$i} { margin-bottom: #{$i}rem}
+  .m-ml-#{$i} { margin-left: #{$i}rem}
+  .m-mr-#{$i} { margin-right: #{$i}rem}
+}
